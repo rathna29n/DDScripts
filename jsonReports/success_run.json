@@ -1,0 +1,303 @@
+{
+    "config": {
+      "forbidOnly": false,
+      "fullyParallel": false,
+      "globalSetup": null,
+      "globalTeardown": null,
+      "globalTimeout": 0,
+      "grep": {},
+      "grepInvert": null,
+      "maxFailures": 0,
+      "metadata": {},
+      "preserveOutput": "always",
+      "projects": [
+        {
+          "outputDir": "C:/Automation/BLS/test-results",
+          "repeatEach": 1,
+          "retries": 0,
+          "id": "",
+          "name": "",
+          "testDir": "C:/Automation/BLS",
+          "testIgnore": [],
+          "testMatch": [
+            "MainBLS/Main_BLS.ts"
+          ],
+          "timeout": 30000
+        }
+      ],
+      "reporter": [
+        [
+          "dot",
+          null
+        ],
+        [
+          "json",
+          {
+            "outputFile": "jsonReports/testresult.json"
+          }
+        ],
+        [
+          "html",
+          {
+            "open": "always"
+          }
+        ]
+      ],
+      "reportSlowTests": {
+        "max": 5,
+        "threshold": 15000
+      },
+      "configFile": "C:\\Automation\\BLS\\playwright.config.ts",
+      "rootDir": "C:/Automation/BLS",
+      "quiet": false,
+      "shard": null,
+      "updateSnapshots": "missing",
+      "version": "1.30.0",
+      "workers": 10,
+      "webServer": null
+    },
+    "suites": [
+      {
+        "title": "MainBLS\\Main_BLS.ts",
+        "file": "MainBLS/Main_BLS.ts",
+        "column": 0,
+        "line": 0,
+        "specs": [
+          {
+            "title": "UKP-T198 - Create Quote in BLEstimate",
+            "ok": true,
+            "tags": [],
+            "tests": [
+              {
+                "timeout": 30000,
+                "annotations": [],
+                "expectedStatus": "passed",
+                "projectId": "",
+                "projectName": "",
+                "results": [
+                  {
+                    "workerIndex": 0,
+                    "status": "passed",
+                    "duration": 2769,
+                    "errors": [],
+                    "stdout": [
+                      {
+                        "text": "Instant Conveyancing EstimateGo\n"
+                      }
+                    ],
+                    "stderr": [],
+                    "retry": 0,
+                    "startTime": "2023-04-10T15:37:44.961Z",
+                    "attachments": [
+                      {
+                        "name": "trace",
+                        "contentType": "application/zip",
+                        "path": "C:\\Automation\\BLS\\test-results\\MainBLS-Main_BLS.ts-UKP-T198---Create-Quote-in-BLEstimate\\trace.zip"
+                      },
+                      {
+                        "name": "screenshot",
+                        "contentType": "image/png",
+                        "path": "C:\\Automation\\BLS\\test-results\\MainBLS-Main_BLS.ts-UKP-T198---Create-Quote-in-BLEstimate\\test-finished-1.png"
+                      }
+                    ]
+                  }
+                ],
+                "status": "expected"
+              }
+            ],
+            "id": "96d731ebfe54d8dfba82-3a3108c7bfbaa4843051",
+            "file": "MainBLS/Main_BLS.ts",
+            "line": 34,
+            "column": 7
+          },
+          {
+            "title": "UKP-T197-Enter Property address, Sale and Purchase Info",
+            "ok": true,
+            "tags": [],
+            "tests": [
+              {
+                "timeout": 30000,
+                "annotations": [],
+                "expectedStatus": "passed",
+                "projectId": "",
+                "projectName": "",
+                "results": [
+                  {
+                    "workerIndex": 0,
+                    "status": "passed",
+                    "duration": 5496,
+                    "errors": [],
+                    "stdout": [],
+                    "stderr": [],
+                    "retry": 0,
+                    "startTime": "2023-04-10T15:37:50.481Z",
+                    "attachments": [
+                      {
+                        "name": "trace",
+                        "contentType": "application/zip",
+                        "path": "C:\\Automation\\BLS\\test-results\\MainBLS-Main_BLS.ts-UKP-T197-Enter-Property-address-Sale-and-Purchase-Info\\trace.zip"
+                      },
+                      {
+                        "name": "screenshot",
+                        "contentType": "image/png",
+                        "path": "C:\\Automation\\BLS\\test-results\\MainBLS-Main_BLS.ts-UKP-T197-Enter-Property-address-Sale-and-Purchase-Info\\test-finished-1.png"
+                      }
+                    ]
+                  }
+                ],
+                "status": "expected"
+              }
+            ],
+            "id": "96d731ebfe54d8dfba82-09ac1182223fcd97b7b6",
+            "file": "MainBLS/Main_BLS.ts",
+            "line": 41,
+            "column": 5
+          },
+          {
+            "title": "UKP--Verify Fee Estimates for Sale and Purchase",
+            "ok": true,
+            "tags": [],
+            "tests": [
+              {
+                "timeout": 30000,
+                "annotations": [],
+                "expectedStatus": "passed",
+                "projectId": "",
+                "projectName": "",
+                "results": [
+                  {
+                    "workerIndex": 0,
+                    "status": "passed",
+                    "duration": 5051,
+                    "errors": [],
+                    "stdout": [
+                      {
+                        "text": "Sale Net Value is £26.00\n"
+                      },
+                      {
+                        "text": "Sale VAT Value is £5.20\n"
+                      },
+                      {
+                        "text": "Sale Gross Value is £31.20\n"
+                      }
+                    ],
+                    "stderr": [],
+                    "retry": 0,
+                    "startTime": "2023-04-10T15:37:55.978Z",
+                    "attachments": [
+                      {
+                        "name": "trace",
+                        "contentType": "application/zip",
+                        "path": "C:\\Automation\\BLS\\test-results\\MainBLS-Main_BLS.ts-UKP--Verify-Fee-Estimates-for-Sale-and-Purchase\\trace.zip"
+                      },
+                      {
+                        "name": "screenshot",
+                        "contentType": "image/png",
+                        "path": "C:\\Automation\\BLS\\test-results\\MainBLS-Main_BLS.ts-UKP--Verify-Fee-Estimates-for-Sale-and-Purchase\\test-finished-1.png"
+                      }
+                    ]
+                  }
+                ],
+                "status": "expected"
+              }
+            ],
+            "id": "96d731ebfe54d8dfba82-b0e2decc1ad1f3b9278b",
+            "file": "MainBLS/Main_BLS.ts",
+            "line": 49,
+            "column": 8
+          },
+          {
+            "title": "UKP--Instruct Us page",
+            "ok": true,
+            "tags": [],
+            "tests": [
+              {
+                "timeout": 30000,
+                "annotations": [],
+                "expectedStatus": "passed",
+                "projectId": "",
+                "projectName": "",
+                "results": [
+                  {
+                    "workerIndex": 0,
+                    "status": "passed",
+                    "duration": 11197,
+                    "errors": [],
+                    "stdout": [],
+                    "stderr": [],
+                    "retry": 0,
+                    "startTime": "2023-04-10T15:38:01.030Z",
+                    "attachments": [
+                      {
+                        "name": "trace",
+                        "contentType": "application/zip",
+                        "path": "C:\\Automation\\BLS\\test-results\\MainBLS-Main_BLS.ts-UKP--Instruct-Us-page\\trace.zip"
+                      },
+                      {
+                        "name": "screenshot",
+                        "contentType": "image/png",
+                        "path": "C:\\Automation\\BLS\\test-results\\MainBLS-Main_BLS.ts-UKP--Instruct-Us-page\\test-finished-1.png"
+                      }
+                    ]
+                  }
+                ],
+                "status": "expected"
+              }
+            ],
+            "id": "96d731ebfe54d8dfba82-26fe92892e5e809f9757",
+            "file": "MainBLS/Main_BLS.ts",
+            "line": 56,
+            "column": 11
+          },
+          {
+            "title": "UKP--Verify Retrieve Estimate",
+            "ok": true,
+            "tags": [],
+            "tests": [
+              {
+                "timeout": 30000,
+                "annotations": [],
+                "expectedStatus": "passed",
+                "projectId": "",
+                "projectName": "",
+                "results": [
+                  {
+                    "workerIndex": 0,
+                    "status": "passed",
+                    "duration": 5970,
+                    "errors": [],
+                    "stdout": [
+                      {
+                        "text": "\n"
+                      }
+                    ],
+                    "stderr": [],
+                    "retry": 0,
+                    "startTime": "2023-04-10T15:38:12.229Z",
+                    "attachments": [
+                      {
+                        "name": "trace",
+                        "contentType": "application/zip",
+                        "path": "C:\\Automation\\BLS\\test-results\\MainBLS-Main_BLS.ts-UKP--Verify-Retrieve-Estimate\\trace.zip"
+                      },
+                      {
+                        "name": "screenshot",
+                        "contentType": "image/png",
+                        "path": "C:\\Automation\\BLS\\test-results\\MainBLS-Main_BLS.ts-UKP--Verify-Retrieve-Estimate\\test-finished-1.png"
+                      }
+                    ]
+                  }
+                ],
+                "status": "expected"
+              }
+            ],
+            "id": "96d731ebfe54d8dfba82-83f146271bd18fa6ed7f",
+            "file": "MainBLS/Main_BLS.ts",
+            "line": 64,
+            "column": 14
+          }
+        ]
+      }
+    ],
+    "errors": []
+  }

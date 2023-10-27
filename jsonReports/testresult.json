@@ -1,0 +1,65 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "c:/Users/rathnamani.karlapudi/OneDrive - Dye & Durham Corporation/backup/Automation/BLS/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "c:/Users/rathnamani.karlapudi/OneDrive - Dye & Durham Corporation/backup/Automation/BLS",
+        "testIgnore": [],
+        "testMatch": [
+          "MainBLS/DRS_Place_Order.ts"
+        ],
+        "timeout": 900000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/testresult.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "c:\\Users\\rathnamani.karlapudi\\OneDrive - Dye & Durham Corporation\\backup\\Automation\\BLS\\playwright.config.ts",
+    "rootDir": "c:/Users/rathnamani.karlapudi/OneDrive - Dye & Durham Corporation/backup/Automation/BLS",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.30.0",
+    "workers": 5,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "=================\n no tests found.\n================="
+    }
+  ]
+}
